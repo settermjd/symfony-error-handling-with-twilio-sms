@@ -9,12 +9,14 @@
         "ext-iconv": "*",
         "symfony/console": "6.1.*",
         "symfony/dotenv": "6.1.*",
+        "symfony/event-dispatcher": "6.1.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.1.*",
+        "symfony/monolog-bundle": "^3.8",
+        "symfony/notifier": "6.1.*",
         "symfony/runtime": "6.1.*",
+        "symfony/twilio-notifier": "6.1.*",
         "symfony/yaml": "6.1.*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
@@ -67,5 +69,8 @@
             "allow-contrib": false,
             "require": "6.1.*"
         }
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.47"
     }
 }
